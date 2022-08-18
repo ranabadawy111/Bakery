@@ -1,0 +1,149 @@
+body{
+    font-family: "Alegreya Sans";
+    font-weight: 400;
+    color: #686868;
+}
+h2, h4{
+    font-family: "Alegreya";
+    color: #303030;
+    line-height: 1.38em;
+}
+p{
+    font-size: 17px;
+    font-weight: 400;
+    color: #686868;
+    line-height: 1.86em;
+}
+nav a
+{
+    font-size: 18px;
+}
+.layer
+{
+    background-image: url("../images/drew-coffman-1872.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#btnUp
+{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    display: none;
+}
+h1{
+    font-size: 76px !important;
+    font-weight: 400;
+    line-height: 1.2em;
+}
+.layer p{
+    font-size: 24px;
+    color: rgba(255,255,255, .92);
+    line-height: 1.86em;
+}
+.layer .learn{
+    background-color: #8e7754;
+    color: #fff!important;
+    font-size: 18px;
+    transition: all 0.2s;
+    border: 2px solid transparent;
+}
+.layer .learn:hover{
+    background-color: rgb(255,255,255);
+    color: #000000!important;
+}
+.layer .contact{
+    border: 2px solid #fff;
+    color: #fff!important;
+    font-size: 18px;
+}
+.layer .contact:hover{
+    background-color: rgb(255,255,255)!important;
+    color: #000000!important;
+}
+
+#about ul, #contact ul
+{
+    list-style-type: none;
+}
+#about li i , #contact ul i{
+    font-size: 24px;
+    color: #8e7754;
+    text-align: center;
+}
+#ourOfer{
+    background-color: #f8f8f8;
+}
+#options{
+   
+    background-color: #fff;
+    cursor: pointer;
+    overflow: auto;
+}
+
+.boxContainer{
+    overflow-y: scroll;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 9999999999;
+    width: 25%;
+    height: 100%;
+}
+#options .captionBox{
+    background-color: #8e7754;
+    border-radius: 5px;
+}
+
+.boxContainer .icon{
+    cursor: pointer;
+    border-radius: 5px;
+}
+#options .colors{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px; 
+}
+#options .color-item{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+.imgs .imgContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.demo-grid{
+    width: 100px;
+    height: 80px;
+    
+}
+#contact{
+    background-color: #f8f8f8;
+}
+#info
+{
+    background-color: #403d38;
+}
+#info p, span
+{
+    color: #969696;
+}
+#info h4
+{
+    color: #fff;
+}
+footer{
+    background-color: #353330;
+}
+footer a i{
+    color: #fff;
+}
+footer a i:hover{
+    color: rgb(67, 67, 148);
+}
